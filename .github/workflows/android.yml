@@ -34,7 +34,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - name: qmake
-      run: qmake -spec android-g++
+      run: |
+        ls $Qt5_DIR/**
+        qmake -spec android-g++
 
     # Runs a set of commands using the runners shell
     - name: make
