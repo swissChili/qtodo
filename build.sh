@@ -4,7 +4,7 @@ qmake -spec android-clang
 # sudo needed for some /opt stuff
 sudo make aab -j9
 # move the apk to here
-mv android-build/build/outputs/apk/debug/android-build-debug.apk qtodo.apk
+sudo mv android-build/build/outputs/apk/debug/android-build-debug.apk qtodo.apk
 
 echo Releasing under name `git tag | tail -n 1`
 
