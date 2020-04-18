@@ -1,0 +1,3 @@
+[submodule "releaseme"]
+	path = releaseme
+	url = git@github.com:swissChili/releaseme.git

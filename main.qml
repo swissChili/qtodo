@@ -2,14 +2,14 @@ import QtQuick 2.12
 import QtQuick.Window 2.0
 import QtQuick.Controls 2.0
 
-Window {
+ApplicationWindow {
     visible: true
-    width: 640
-    height: 480
+    //width: 640
+    //height: 480
     title: qsTr("qToDo")
     id: root
-    minimumWidth: 640
-    minimumHeight: 480
+    //minimumWidth: 640
+    //minimumHeight: 480
 
     TodoList {
         id: list
